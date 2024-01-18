@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    color:white;
+}
+li{
+    cursor: pointer;
+}
+input{
+    background-color: white;
+    border: transparent;
+    color:orange;
+}
+input:focus{
+    background-color: black;
+}
+img{
+    background-color: rgb(186, 234, 186);
+    width: 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.lista > div{
+    display: flex;
+    gap:2vw;
+    align-items: center;
+    margin-top: 3vh;
+}
